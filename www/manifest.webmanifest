@@ -1,0 +1,18 @@
+{
+  "name": "KaamKhata — Contractor Register",
+  "short_name": "KaamKhata",
+  "description": "Workforce register for labour contractors: staff, documents, attendance, wages, PF/ESIC, advances and reports. Works offline.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#E9EDF2",
+  "theme_color": "#1C2A3A",
+  "lang": "en-IN",
+  "categories": ["business", "productivity", "finance"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

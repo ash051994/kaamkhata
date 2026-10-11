@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>KaamKhata</title>
+  <meta name="description" content="Workforce register for labour contractors: staff, documents, attendance, wages, PF/ESIC, advances and reports. Works offline." />
+  <meta name="theme-color" content="#1C2A3A" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icons/icon-192.png" />
+  <link rel="stylesheet" href="css/app.css" />
+  <script>try{var t=localStorage.getItem("theme");if(t)document.documentElement.setAttribute("data-theme",t)}catch(e){}</script>
+</head>
+<body>
+  <header class="topbar">
+    <button class="icon-btn back" id="backBtn" aria-label="Back" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7" /></svg>
+    </button>
+    <h1 id="pageTitle">KaamKhata</h1>
+    <div id="topActions" class="top-actions"></div>
+  </header>
+
+  <main id="view" tabindex="-1"></main>
+
+  <nav class="tabbar" aria-label="Main">
+    <a href="#/" data-tab="home">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10.5L12 4l8 6.5V20h-5v-6H9v6H4z" /></svg><span>Home</span>
+    </a>
+    <a href="#/staff" data-tab="staff">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3.2" /><path d="M3 20c.6-3.6 3-5.5 6-5.5s5.4 1.9 6 5.5" /><path d="M15.5 5.2a3 3 0 010 5.6M18 14.8c1.7.8 2.7 2.5 3 5.2" /></svg><span>Staff</span>
+    </a>
+    <a href="#/attendance" data-tab="attendance">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="15" rx="2" /><path d="M3.5 9.5h17M8 3v4M16 3v4M8 14l2.5 2.5L16 12" /></svg><span>Attendance</span>
+    </a>
+    <a href="#/wages" data-tab="wages">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 5h10M7 9.5h10M10 5c3.5 0 5 1.6 5 4.5S13.3 14 10 14H7l7 6" /></svg><span>Wages</span>
+    </a>
+    <a href="#/more" data-tab="more">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 6h14M5 12h14M5 18h9" /></svg><span>More</span>
+    </a>
+  </nav>
+
+  <div id="lock" class="lock" hidden></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>

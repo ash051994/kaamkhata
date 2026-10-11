@@ -1,0 +1,31 @@
+{
+  "name": "kaamkhata",
+  "version": "1.0.0",
+  "description": "Offline-first workforce register for labour contractors: staff, KYC documents, attendance, wages with PF/ESIC, advances and reports. Android app via Capacitor.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "python3 -m http.server 8080 --directory www",
+    "test": "node tests/unit.mjs && node tests/smoke.mjs",
+    "test:unit": "node tests/unit.mjs",
+    "android:add": "cap add android",
+    "android:sync": "cap sync android",
+    "android:open": "cap open android",
+    "android:run": "cap run android"
+  },
+  "dependencies": {
+    "@capacitor/android": "latest",
+    "@capacitor/core": "latest",
+    "@capacitor/filesystem": "latest",
+    "@capacitor/share": "latest",
+    "@capacitor-community/speech-recognition": "latest",
+    "@capacitor-community/text-to-speech": "latest"
+  },
+  "devDependencies": {
+    "@capacitor/assets": "latest",
+    "@capacitor/cli": "latest",
+    "playwright": "latest"
+  },
+  "author": "Ashwin Gaikwad",
+  "license": "SEE LICENSE IN LICENSE"
+}

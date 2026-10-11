@@ -1,0 +1,12 @@
+{
+  "appId": "in.kaamkhata.app",
+  "appName": "KaamKhata",
+  "webDir": "www",
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true
+  },
+  "server": {
+    "androidScheme": "https"
+  }
+}
