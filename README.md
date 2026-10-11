@@ -109,6 +109,6 @@ Every push to `main` builds a debug APK in GitHub Actions (download it from the 
 ## Author
 
 **Ashwin Gaikwad** — full-stack developer (PHP/WordPress, Node, React, Python, AWS, AI/MCP tooling), Maharashtra.
-[GitHub](https://github.com/ash051994) · ash051994@outlook.com
+[GitHub](https://github.com/ash051994) · [LinkedIn](https://www.linkedin.com/in/ashwin-gaikwad-dev) · ash051994@outlook.com
 
 <sub>Source is published for evaluation. See [LICENSE](LICENSE).</sub>
